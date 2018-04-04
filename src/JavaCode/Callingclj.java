@@ -42,7 +42,7 @@ public class Callingclj extends HttpServlet {
 	       String a=request.getParameter("edn");
 	       String b=request.getParameter("json");
 	       Connection cc = new  Connection();
-	       Connection.del_new();
+	       
 	       String c= cc.data(b, a);
 	       //sending a variable to jsp page 
 	       request.setAttribute("var", c);
